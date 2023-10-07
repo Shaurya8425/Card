@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+.container{
+    background-color: #24262e;
+    /* background-color: #18181d; */
+    height: 99vh;
+    width: 356px;
+    border: 0px solid transparent;
+    border-radius: 1rem;
+    position: relative;
+}
+.quickdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.quickdetails img{
+    border: 3px solid #1f1d26;
+    border-radius: 1rem;
+    width: 100%;
+}
+.quickdetails h1,h3,p{
+    margin: 0;
+    padding: 0;
+}
+.quickdetails h3{
+    font-size: 16px;
+}
+.quickdetails p{
+    font-size: 12px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+.btn button{
+    padding: .1rem 2rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+    border: 0 solid transparent;
+    border-radius: .5rem;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+}
+.linkedin{
+    background-color: #4883d6;
+    color: white;
+}
+.email:hover{
+    color: rgba(0, 0, 0, 0.626);
+}
+.linkedin:hover{
+    color: antiquewhite;
+}
+.discription{
+    color: white;
+    padding: .5rem 1.5rem;
+}
+.discription h3{
+    font-weight: 600;
+}
+.discription p{
+    font-size: 13px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: .75rem ;
+    background-color: #1f1d26;
+    border: 0px solid transparent;
+    border-radius: 1rem;
+}
+.footer p{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: white;
+}
+.footer p i:hover{
+    color: gold;
+}
