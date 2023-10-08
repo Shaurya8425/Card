@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/solo-project/static/css/main.ea0f2117.css",
+    "main.js": "/solo-project/static/js/main.1ddf96c6.js",
+    "static/media/stefan-stefancik-QXevDflbl8A-unsplash.jpg": "/solo-project/static/media/stefan-stefancik-QXevDflbl8A-unsplash.d4bd64df2905c65f5132.jpg",
+    "index.html": "/solo-project/index.html",
+    "main.ea0f2117.css.map": "/solo-project/static/css/main.ea0f2117.css.map",
+    "main.1ddf96c6.js.map": "/solo-project/static/js/main.1ddf96c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0f2117.css",
+    "static/js/main.1ddf96c6.js"
+  ]
+}
